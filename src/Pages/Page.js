@@ -996,9 +996,9 @@ const galleryData = {
     background: "https://c4.wallpaperflare.com/wallpaper/491/798/436/digital-art-artwork-concept-art-fantasy-art-warrior-hd-wallpaper-preview.jpg",
     type: 'carousel',
     media: [
-      "https://c4.wallpaperflare.com/wallpaper/865/492/937/fantasy-art-artwork-warrior-digital-art-wallpaper-preview.jpg",
-      "https://c4.wallpaperflare.com/wallpaper/324/520/1000/fantasy-art-warrior-knight-artwork-wallpaper-preview.jpg",
-      "https://c4.wallpaperflare.com/wallpaper/135/291/715/fantasy-art-warrior-magic-artwork-wallpaper-preview.jpg",
+      "banner.jpg",
+      "vuong1.jpg",
+      "vuong2.jpg",
     ],
   },
   story: {
@@ -1010,8 +1010,8 @@ const galleryData = {
     background: "https://c4.wallpaperflare.com/wallpaper/986/679/651/dragon-fantasy-art-artwork-digital-art-wallpaper-preview.jpg",
     type: 'carousel',
     media: [
-        "https://c4.wallpaperflare.com/wallpaper/643/522/453/fantasy-art-artwork-dragon-digital-art-wallpaper-preview.jpg",
-        "https://c4.wallpaperflare.com/wallpaper/896/689/229/fantasy-art-artwork-dragon-digital-art-wallpaper-preview.jpg",
+        "coverfb.jpg",
+        "banner.jpg",
         "https://c4.wallpaperflare.com/wallpaper/442/1012/990/fantasy-art-artwork-dragon-digital-art-wallpaper-preview.jpg",
     ],
   },
