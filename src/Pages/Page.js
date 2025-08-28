@@ -1012,7 +1012,7 @@ const galleryData = {
     media: [
         "coverfb.jpg",
         "banner.jpg",
-        "https://c4.wallpaperflare.com/wallpaper/442/1012/990/fantasy-art-artwork-dragon-digital-art-wallpaper-preview.jpg",
+        "banner.jpg",
     ],
   },
 };
