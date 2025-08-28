@@ -895,7 +895,9 @@ const Navbar = () => {
     <nav className={`navbar ${scrolled ? 'scrolled' : ''}`}>
       <div className="nav-content">
         {/* ✨ NÂNG CẤP: Thay đổi tên game */}
-        <a href="#home" className="nav-logo">The Last Ember</a>
+        <a href="#home" className="nav-logo">
+          <img alt='' style={{height: "50px"}} src='./logo_white_color400x200.png'/>
+        </a>
         <div className="nav-menu">
           <a href="#story" className="nav-link">BACKGROUND</a>
           <a href="#features" className="nav-link">FEATURES</a>
@@ -936,8 +938,7 @@ const StorySection = () => (
       </p>
     </div>
     <div className="media-content">
-        {/* ✨ NÂNG CẤP: Video cinematic kể chuyện */}
-      <video src="https://videos.pexels.com/video-files/7578277/7578277-uhd_2560_1440_24fps.mp4" autoPlay loop muted playsInline />
+      <img src='./blog1.jpg' alt=''/>
     </div>
   </ContentSection>
 );
@@ -945,8 +946,7 @@ const StorySection = () => (
 const FeatureSection1 = () => (
   <ContentSection id="features" backgroundImage="https://images.unsplash.com/photo-1605405332448-345a6d354b3c?auto=format&fit=crop&w=2000&q=80">
     <div className="media-content" style={{ order: 1 }}>
-        {/* ✨ NÂNG CẤP: Video cinematic hành động */}
-      <video src="https://videos.pexels.com/video-files/5985167/5985167-uhd_2560_1440_25fps.mp4" autoPlay loop muted playsInline />
+      <img src='./blog2.jpg' alt=''/>
     </div>
     <div className="text-content" style={{ order: 2, paddingLeft: '2rem' }}>
       <h2>A VAST, LIVING WORLD AWAITS</h2>
@@ -966,8 +966,21 @@ const FeatureSection2 = () => (
       </p>
     </div>
     <div className="media-content">
-        {/* ✨ NÂNG CẤP: Video cinematic chiến đấu */}
-      <video src="https://videos.pexels.com/video-files/7578077/7578077-hd_1920_1080_25fps.mp4" autoPlay loop muted playsInline />
+      <img src='./blog3.jpg' alt=''/>
+    </div>
+  </ContentSection>
+);
+
+const FeatureSection3 = () => (
+  <ContentSection id="features" backgroundImage="https://images.unsplash.com/photo-1605405332448-345a6d354b3c?auto=format&fit=crop&w=2000&q=80">
+    <div className="media-content" style={{ order: 1 }}>
+      <img src='./blog4.jpg' alt=''/>
+    </div>
+    <div className="text-content" style={{ order: 2, paddingLeft: '2rem' }}>
+      <h2>A VAST, LIVING WORLD AWAITS</h2>
+      <p>
+        Explore sprawling jungles, mystical temples, and vibrant cities. The world of "The Last Ember" is a seamless tapestry of breathtaking landscapes and hidden secrets, where every path holds a new adventure and every NPC has a story to tell.
+      </p>
     </div>
   </ContentSection>
 );
@@ -1131,7 +1144,9 @@ const GallerySection = () => {
 const Footer = () => (
     <footer id="community" className="footer">
         <div className="container">
-            <div className="footer-logo">The Last Ember</div>
+            <a className="footer-logo" href='#' style={{display: "flex", justifyContent: "center", marginBottom: "35px", cursor: "pointer"}}>
+              <img alt='' style={{height: "50px"}} src='./logo_white_color400x200.png'/>
+            </a>
             <div className="footer-links">
                 <a href="#">Support</a>
                 <a href="#">Privacy Policy</a>
@@ -1160,6 +1175,7 @@ const App = () => {
           <StorySection />
           <FeatureSection1 />
           <FeatureSection2 />
+          <FeatureSection3 />
           <GallerySection />
         </main>
         <Footer />
